@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>Microsoft.Wim.Powershell</id>
+        <version>1.0.0</version>
+        <title>Microsoft.Wim.Powershell</title>
+        <authors>Dennis Roche</authors>
+        <projectUrl>https://github.com/dennisroche/Microsoft.Wim.Powershell</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>PowerShell CmdLets for the native Windows Imaging API (WIMGAPI)</description>
+        <tags>powershell, wimgapi</tags>
+        <dependencies>
+            <dependency id="Microsoft.Wim" version="1.0" />
+            <dependency id="Microsoft.Win32Ex" version="1.0" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="Microsoft.Wim.Powershell\bin\Microsoft.Wim.Powershell.dll" target="lib\net40\Microsoft.Wim.Powershell.dll" />
+        <file src="Microsoft.Wim.Powershell\bin\Microsoft.Wim.Powershell.pdb" target="lib\net40\Microsoft.Wim.Powershell.pdb" />
+    </files>
+</package>
