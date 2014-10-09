@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Wim.Powershell", "Microsoft.Wim.Powershell\Microsoft.Wim.Powershell.csproj", "{2330B1E9-8FF1-4ACF-A03C-A29C0F79F100}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Wim.Powershell.Tests", "Microsoft.Wim.Powershell.Tests\Microsoft.Wim.Powershell.Tests.csproj", "{7C10EDD6-4DC7-422A-B4EA-F1AA8F457185}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2330B1E9-8FF1-4ACF-A03C-A29C0F79F100}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2330B1E9-8FF1-4ACF-A03C-A29C0F79F100}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2330B1E9-8FF1-4ACF-A03C-A29C0F79F100}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2330B1E9-8FF1-4ACF-A03C-A29C0F79F100}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C10EDD6-4DC7-422A-B4EA-F1AA8F457185}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C10EDD6-4DC7-422A-B4EA-F1AA8F457185}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C10EDD6-4DC7-422A-B4EA-F1AA8F457185}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C10EDD6-4DC7-422A-B4EA-F1AA8F457185}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

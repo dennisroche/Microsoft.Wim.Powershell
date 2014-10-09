@@ -1,0 +1,6 @@
+# Temporary files
+*/bin/*
+*/obj/*
+*.user
+*.suo
+packages/*
