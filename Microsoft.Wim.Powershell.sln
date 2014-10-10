@@ -1,9 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30324.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Wim.Powershell", "Microsoft.Wim.Powershell\Microsoft.Wim.Powershell.csproj", "{2330B1E9-8FF1-4ACF-A03C-A29C0F79F100}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Wim.Powershell.Tests", "Microsoft.Wim.Powershell.Tests\Microsoft.Wim.Powershell.Tests.csproj", "{7C10EDD6-4DC7-422A-B4EA-F1AA8F457185}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{64091A08-ED88-4243-829B-43D7D82D03C1}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts\DebugWriteWimImage.ps1 = Scripts\DebugWriteWimImage.ps1
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

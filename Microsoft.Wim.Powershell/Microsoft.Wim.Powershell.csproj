@@ -52,4 +52,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>COPY "$(SolutionDir)Scripts\*.ps1" "$(TargetDir)"</PostBuildEvent>
+  </PropertyGroup>
 </Project>
