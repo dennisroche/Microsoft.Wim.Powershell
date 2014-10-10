@@ -4,5 +4,5 @@
 $VerbosePreference = 'Continue'
 $DebugPreference = 'Continue'
 
-Import-Module .\Microsoft.Wim.Powershell.dll -Force
-Write-WimImage -WimPath G:\sources\install.wim -TargetPath E:\PsWimImage
+Import-Module .\Microsoft.Wim.Powershell.dll -Force -Verbose 
+Write-WimImage -WimPath G:\sources\install.wim -TargetPath E:\Test -Verbose -Debug
