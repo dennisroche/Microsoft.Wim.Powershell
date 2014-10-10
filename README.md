@@ -1,9 +1,9 @@
 Microsoft.Wim.Powershell
 ========================
 
-PowerShell CmdLets for the native Windows Imaging API (WIMGAPI)
+PowerShell CmdLets for the native Windows Imaging API (WIMGAPI).
 
-Uses the [Managed WimgApi](https://managedwimgapi.codeplex.com/)
+Uses [Managed WimgApi](https://managedwimgapi.codeplex.com/) - a thin managed wrapper for the native Windows Imaging API (WIMGAPI).
 
 #CmdLets
 
@@ -12,15 +12,14 @@ Uses the [Managed WimgApi](https://managedwimgapi.codeplex.com/)
 
 Writes a Windows Image (`*.wim`) to a location.
 
-#Installing
-
-Available via NuGet.
-
 ```ps
-Install-Package Microsoft.Wim.Powershell
+Import-Module .\Microsoft.Wim.Powershell.dll-Verbose 
+Write-WimImage -WimPath G:\sources\install.wim -TargetPath E:\
 ```
 
-Also available via PsGet.
+#Installing
+
+Available via [NuGet](https://www.nuget.org/packages/Microsoft.Wim.Powershell/).
 
 ```ps
 Install-Package Microsoft.Wim.Powershell
